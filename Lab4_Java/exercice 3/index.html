@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Page Title</title>
+</head>
+<script> 
+
+function init()
+{
+	var ps = document.querySelectorAll('p'); 
+
+	for(var i in ps) 
+	{ 
+		ps[i].parentNode.removeChild(ps[i]); 
+	}
+}
+
+</script>
+<body id = 'Main' onload="init()">
+<p> contenu 1 </p>
+<p> contenu 2 </p>
+<p> contenu 3 </p>
+<p> contenu 4 </p>
+<p> contenu 5 </p>
+<p> contenu 6 </p>
+<p> contenu 7 </p>
+<p> contenu 8 </p>
+<p> contenu 9 </p>
+<p> contenu 10 </p>
+
+
+</body>
+
+</html>
